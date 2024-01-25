@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header{
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav{
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a{
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0px 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            color: #333;
+        }
+        .portfolioItem{
+            margin-bottom: 20px;
+        }
+        footer{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        form{
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0 0 0 0.1);
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input,textarea{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;   
+            border-radius: 4px;     
+        }
+        button{
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 150px;
+        }
+        button :hover{
+            background-color: darkgreen;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gayatri Acharya</h1>
+        <p>Incident Manager</p>
+    </header>
+    <nav>
+<a href="#Home">Home</a>
+<a href="#about">About Me</a>
+<a href="#skills">Skills</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+</nav>
+<div id="home">
+    <h2>Home</h2>
+    <p>Welcome to my personal website.</p>
+</div>
+<div id="about">   
+<h2>About Me</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, alias!</p>
+</div>
+<div id="skills">
+    <h2>Skills:</h2>
+    <ul>
+        <li>HTML 5</li>
+        <li>CSS3</li>
+        <li>javaScript</li>
+        <li>Bootsrap</li>
+        <li>GitHub</li>
+    </ul>
+</div>
+<div id="portfolio">
+    <h2>Portfolio:</h2>
+    <div class="portfolioItem">
+        <h3>Project 1</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde id nulla fugiat voluptas dolores sunt.</p>
+    </div>
+    <div class="portfolioItem">
+        <h3>Project 2</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde id nulla fugiat voluptas dolores sunt.</p>
+    </div>
+</div>
+<div id="contact">
+    <h2>Contact Me</h2>
+</div>
+    
+    <form>
+        <h1>Simple Form</h1>
+        <label for="name">Enter your Name:</label>
+        <input type="text" id="name" name="Name">
+        <label  for="email">Enter your Email Address:</label>
+         <input type="email" id="email" name="Email">
+         <label for="message">Message</label>
+        <textarea id="message" cols="30" rows="5"></textarea>
+      <button type="submit">SUBMIT</button>
+    </form>
+    <footer>
+        &copy; 2024 Gayatri Acharya. My personal Website
+    </footer>
+</body>
+</html>

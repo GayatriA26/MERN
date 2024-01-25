@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+        h1{
+            color: #264653;
+            text-align: center;
+        }
+        .productContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .productCard{
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0 0 0 0.1);
+            border-radius: 8px;
+            width: 300px;
+            margin: 20px;
+        }
+        .productImage{
+            width: 100%;
+            height: 300px;
+        }
+        .productDetails{
+            padding: 20px;
+            text-align: center;
+        }
+        .productName{
+            font-size: 1rem;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .productPrice{
+            color: #555;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .buyNow{
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .buyNow:hover{
+            background-color: darkolivegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Details</h1>
+    <div class="productContainer">
+        
+        <div class="productCard">
+            <img class="productImage"  src="/Assignment/Product Images/Product1.png" alt="Product 1">
+            <div class="productDetails">
+                <div class="productName">V Neck Embroidered Bodice long Prom Dress</div>
+                <div class="productPrice">4999Rs</div>
+                <button class="buyNow">Buy Now</button>   
+            </div>
+        </div>
+        <div class="productCard">
+            <img class="productImage"  src="/Assignment/Product Images/Product2.png" alt="Product 2">
+            <div class="productDetails">
+                <div class="productName">Women Tan Brown Quilted leather Jacket</div>
+                <div class="productPrice">1599Rs</div>
+                <button class="buyNow">Buy Now</button>   
+            </div>
+        </div>
+        <div class="productCard">
+            <img class="productImage"  src="/Assignment/Product Images/Product3.png" alt="Product 3">
+            <div class="productDetails">
+                <div class="productName">Casual Stretch faded ripped slim fit skin denim jeans</div>
+                <div class="productPrice">899Rs</div>
+                <button class="buyNow">Buy Now</button>   
+            </div>
+        </div>
+        <div class="productCard">
+            <img class="productImage"  src="/Assignment/Product Images/Product4.png" alt="Product 4">
+            <div class="productDetails">
+                <div class="productName">Double colored shaded T shirts for Women</div>
+                <div class="productPrice">1999Rs</div>
+                <button class="buyNow">Buy Now</button>   
+            </div>
+        </div>
+        <div class="productCard">
+            <img class="productImage"  src="/Assignment/Product Images/Product5.png" alt="Product 5">
+            <div class="productDetails">
+                <div class="productName">Merlin Madison Ladies Motorcycle Shirt</div>
+                <div class="productPrice">1199Rs</div>
+                <button class="buyNow">Buy Now</button>   
+            </div>
+        </div>
+    </div>
+</body>
+</html>

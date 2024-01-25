@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Cenetred text on Web Page */
+        /* h1{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        } */
+        /* Cenetred text on Web Page */
+         /* body{
+
+          position: absolute;
+            left: 50%;
+            top: 50%; 
+        } */
+        .boxShadow{
+            background-color: goldenrod;
+            height: 40px;
+            width: 100px;
+            box-shadow: 2px 2px 5px black;
+
+        }
+        caption{
+            font-size: 30px;
+           color: blue;
+           font-weight: bolder;
+        }
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+th,td{
+    text-align: center;
+    padding: 10px;  
+    font-size: 30px;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
+th{
+    background-color: darkgray;
+}
+       
+    </style>
+</head>
+<body>
+    <form >
+        <label for="birthDate">Select your Birth date</label>
+        <input type="date" name="DOB"id="birthDate">
+        <hr>
+        <label for="time">Time</label>
+        <input type="time" name="Time" id="time">
+        <hr>
+        <label for="week">Week</label>
+        <input type="week" name="Week" id="week">
+        <hr>
+        <label for="dateTime">Date&Time</label>
+        <input type="datetime-local" name="Date&Time" id="dateTime">
+        <!-- <hr>
+        <h1 class="centeredText">Gayatri Acharya  </h1> -->
+        <hr>
+        <h1><span style="color: blue; font-size: 50px;">G</span>ood Evening Everyone...!!!</h1>
+        <hr>
+        <label for="range">Slide Bar</label>
+        <input type="range" Name="slideBar" id="range">
+        <hr>
+        <label for="colorPicker">Select Your Favourite color</label>
+        <input type="color" Name="colorPicker" id="colorPicker">
+        <hr>
+        <label for="files">Upload File Here</label>
+        <input type="file" name="uploadedFile" id="files">
+    </form>
+    <hr>
+    <table border="1">
+        <caption>User Data</caption>
+        <thead>
+            <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Adress</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gaytri</td>
+                <td>Acharya</td>
+                <td>Honnavar</td>
+            </tr>
+            <tr>
+            <td>Raksha</td>
+            <td>Bhandarkar</td>
+            <td>Kumta</td>
+        </tr>
+        <tr>
+            <td>Aditya</td>
+            <td>Acharya</td>
+            <td>Bhatkal</td>
+        </tr>
+        <tr>
+            <td>Vaishali</td>
+            <td>Acharya</td>
+            <td>Sirsi</td>
+        </tr>
+        <tr>
+            <td>Manjunath</td>
+            <td>Bhandarkar</td>
+            <td>Karwar</td>
+        </tr>
+        </tbody>
+    </table>
+    <hr>
+    <button  class="boxShadow" type="submit">SUBMIT</button>
+    <hr>
+</body>
+</html>
